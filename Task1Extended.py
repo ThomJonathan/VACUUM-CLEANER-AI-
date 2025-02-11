@@ -1,4 +1,6 @@
 # TASK 1 EXTENDED
+# in here the agent is being fed data from a file having some random details.
+#the vacuum.txt has more than 500 lines
 from datetime import time
 import time
 
@@ -44,7 +46,7 @@ class Vacuum_cleaner:
 
 room= {"A": "", "B": ""}
 # Read file and update dictionary
-with open('/Users/mac/Desktop/THOM/ARTIFICIAL INTELLIGENCE/vacuum.txt', 'r') as file:
+with open('vacuum.txt', 'r') as file:
     for line in file:
         sta1, sta2 = line.strip().split(", ")
         room["A"],room["B"]=sta1,sta2
