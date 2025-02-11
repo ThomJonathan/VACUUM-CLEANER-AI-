@@ -1,0 +1,8 @@
+Project Ideas
+1. MY helper app (Access your phone from anywhere without internet connection ).
+2. Smart restaurant 
+3. Voice based Email for visually challenged people.
+4.  ride hailing system (ULENDO)
+5. College connect
+
+
