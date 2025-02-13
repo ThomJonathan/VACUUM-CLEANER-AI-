@@ -38,7 +38,7 @@ class Vacuum_cleaner:
                 for room in rooms:
                     # checking if the is occupied or not
                     if room_status[room]=="occupied":
-                        print(f"currently the room {room} is occupied based on the data that i do have")
+                        print(f"currently the room {room} is occupied as based on the timetable")
                         print("skipped ............going to the next room it will be cleaned later\n\n")
                         continue
                     print("Moving to room", {room}, end="", flush=True)
