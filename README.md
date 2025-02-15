@@ -30,12 +30,12 @@ Two levels have been implemented:
 #### **Easy:**
 The agent is initialized with a predefined environment state.   
   -Below is a codespace link for the easy task program;  
-    https://bug-free-space-palm-tree-vx97769j6jx266q.github.dev/
+    https://github.com/ThomJonathan/VACUUM-CLEANER-AI-/blob/main/Task1_Easy.py
 
 #### **Hard:**
 The agent is given random inputs from a text file with about 300 lines. Data is extracted line by line for the agent.  
   -Below is a codespace link for the Hard task program;  
-    https://bug-free-space-palm-tree-vx97769j6jx266q.github.dev/
+    https://github.com/ThomJonathan/VACUUM-CLEANER-AI-/blob/main/Task1Extended.py
 
 ### **1.5 Results**
 - The agent is able to check if the room is dirty or not.  
@@ -65,11 +65,11 @@ The environment is represented using a **nested dictionary**, where:
 2. **Two Implementation Methods:**  
    - **Hardcoded Dictionary:** Uses `empty` (clean) or `*` (dirty).      
         -Codespace link for Task 2 first implementation program;      
-         https://bug-free-space-palm-tree-vx97769j6jx266q.github.dev/
+         https://github.com/ThomJonathan/VACUUM-CLEANER-AI-/blob/main/Task2.py
       
    - **Randomly Generated Status:** Assigns a dirtiness score from `0` (clean) to `10` (very dirty).    
        -Codespace link for Task 2 second implementation program;   
-         https://bug-free-space-palm-tree-vx97769j6jx266q.github.dev/
+         https://github.com/ThomJonathan/VACUUM-CLEANER-AI-/blob/main/Task2Extended.py
 
 3. **Time-based simulation** tracks cleaning duration.  
 4. **Room occupation status** (`free`, `occupied`, `makeup class`).  
